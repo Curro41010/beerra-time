@@ -1,3 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+nav img {
+    height: 50px;
+    margin-right: 20px;
+}
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
